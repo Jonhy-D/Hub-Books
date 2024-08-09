@@ -46,7 +46,21 @@ All with SQL Server and Visual Basic 6.
 
 This is the entity relationship diagram of the hub entertainment mega project database according to my point of view.
 
-![Entity-Relationship Diagram Image](/Entity-Relationship-HUB-R.webp)
+![Entity-Relationship Diagram Image](/Images/Entity-Relationship-HUB-R.webp)
+
+## Images of Aplication Windows - Hub Of Reading
+
+- This image shows the user interface.
+
+![Profile Aplication](/Images/Profile.webp)
+
+- This image shows the interface of the book library.
+ 
+![Library Aplication](/Images/Library.webp)
+
+- This image shows the book details interface.
+
+![Details of book](/Images/Detailsb.webp)
 
 ## Process
 
