@@ -4,8 +4,8 @@ Public conn As ADODB.Connection
 
 Public Sub Connect()
     Set conn = New ADODB.Connection
-    conn.ConnectionString = "Provider=SQLOLEDB;Data Source=LAPTOP-ABU5HG8F;Initial Catalog=HubOfReading;User ID=jonhy-d;Password=Merry01.;"
-    conn.open
+    conn.ConnectionString = "Provider=SQLOLEDB;Data Source=;Initial Catalog=;User ID=;Password=;"
+    conn.Open
 End Sub
 
 Public Sub Disconnect()
