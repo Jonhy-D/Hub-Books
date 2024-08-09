@@ -16,27 +16,15 @@ You need to have Visual Basic 6 installed for this project to work.
 
 ### Second Step: 
 
-When you have installed Visual Basic 6 you will have to go to the module called ** ConnectionDB ** and in the ConecctionString put
+When you have installed Visual Basic 6 you will have to open the project, go to the modules section and in the module called **ConnectionDB** and in the ConecctionString put:
 
 ```
 "Provider=SQLOLEDB;Data Source="NAME OF SERVER SQL";Initial Catalog="NAME OF DATA BASE";User ID="USER SERVER";Password="PASSWORD OF USER SERVER";"
 ```
 
-### Third Step:
-
-You need to create a file **.env** with the next requirements in the root of the project:
-```
-DB_USER = "Put here database user"
-DB_PASSWORD = "Put here database password".
-DB_SERVER = "Put here database server name"
-DB_DATABASE = "Put here database name"
-DB_PORT = "Put here data base PORT"
-BC_PORT = "Put here Backend server PORT"
-```
-
 ### Final Step
 
-Run `node index.js --watch` for a server Navigate to localhost and the PORT that you will put in the BC_PORT.
+Run the proyect.
 
 ### Remember need a database
 
@@ -58,26 +46,25 @@ All with SQL Server and Visual Basic 6.
 
 This is the entity relationship diagram of the hub entertainment mega project database according to my point of view.
 
-![Entity-Relationship Diagram Image](/public/Entity-Relationship.webp)
+![Entity-Relationship Diagram Image](/Entity-Relationship-HUB-R.webp)
 
 ## Process
 
-- First I created the tables that were the main ones that were users, movies and series. 
+- First I created the first main tables of the entire database.
 - After having created those tables to be able to store those items, then I had to see the functions of my application to be able to make the other tables that are the user's favorites and Since in MySQL there are relationship tables.
-- I had to think about how the user relates to those tables and thus create the other tables of favorite movies and favorite series.
-- The next step was to create the backend, which is only a provisional backend because we will implement a different one with a different technology. The different endpoints were created so that they could be consumed from the frontend.
-- The last thing I did in this sprint was to create the user login but I had a problem with the redirects and being able to make a registration.
-- Create a cookie so that the login is saved for 3 days so that the session is not lost.
+- I had to think about how the user relates to those tables and thus create the other tables of favorite books and those read in addition to those you don't like.
+- After creating the database, we now begin to create the interface, which was somewhat tedious because it is not something we currently use, so it is difficult to understand what each thing is used for.
+- The last thing was to bring all the buttons we created to life and give them functionality, but without the Challenger we wouldn't have been able to move forward, really.
 
 ## Issues
 
-- My first problem was connect to the database with my backend application, because When I tried to connect the server send to me an alert with the code error but I don't know how to fix this error.
-- After that error, many errors of different types began to appear.
-- The biggest error that took me a long time to find was because my database could not connect to my backend and it was because I was not getting some error code that was in problem forums but in the end it was a problem with the TCP protocols of SQL Server Management.
-- Another error that I couldn't solve was a problem with how to store a variable that comes from the response of the POST request in order to use it in a different component, and that was one of the ones I had the most problems with and couldn't solve in order to make my favorites section work because I needed that value to be able to make the query.
+- I think this sprint has now surpassed the bugs I was getting from the other project.
+- Because it is simply very difficult to find how to fix it because the errors are not at all legible or understandable.
+- Because I made a mistake and spent almost a whole day reading articles from people who posted years ago on websites that are also super old and so it was very difficult to find a solution that would truly solve my problems.
+- I think my problem was more that I didn't like the interface of how to work with Visual Basic because after fixing an error you can continue with the next one and more or less you get an idea of ​​what's going on.
 
 ## Table Sprint Review
 
 | **What was done well?** | **What can I do differently?** | **What didn't go well?** |
 ------------------|----------------------------|-----------------------
-| In this sprint I think there were few things that went well because I had to do a lot of research. But the main thing that went well was the creation of the database with T-SQL and the creation of the entity relationship diagram. | In this sprint I think what I needed most was to be able to ask my questions in private sessions because I feel that there is not enough time to be able to help with errors and communication. | The implementation of connecting my database with my application was quite tiring because many errors came up that I had never seen before, but the good thing was that in the session they gave many tips to get out of the hole. |
+| I think that in this sprint it was easier to create things because the sessions with the challenger were extensive so he had the opportunity to teach us several things that could be useful, because I was able to carry out the sprint in my own way as I completed it. | I don't know what to answer in this sprint because I can manage my times very well, the only thing that was a problem was error handling and there is not a wide range of resources. | For me, working with Visual Basic 6 is what is not good because it is too outdated and there are not many options to extract information. |
