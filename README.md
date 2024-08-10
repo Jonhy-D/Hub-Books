@@ -76,6 +76,7 @@ This is the entity relationship diagram of the hub entertainment mega project da
 - Because it is simply very difficult to find how to fix it because the errors are not at all legible or understandable.
 - Because I made a mistake and spent almost a whole day reading articles from people who posted years ago on websites that are also super old and so it was very difficult to find a solution that would truly solve my problems.
 - I think my problem was more that I didn't like the interface of how to work with Visual Basic because after fixing an error you can continue with the next one and more or less you get an idea of ​​what's going on.
+- The only thing I couldn't do was how to bring the book details to another form. I didn't understand how to do that part.
 
 ## Table Sprint Review
 
